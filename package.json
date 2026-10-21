@@ -1,0 +1,15 @@
+{
+  "name": "seo-audit-cli",
+  "version": "1.0.0",
+  "description": "Audit SEO on-page din linia de comandă: title, meta, H1, canonical, Open Graph, JSON-LD, imagini și scor.",
+  "type": "module",
+  "bin": { "seo-audit": "bin/seo-audit.js" },
+  "scripts": {
+    "test": "node --test",
+    "audit": "node bin/seo-audit.js"
+  },
+  "engines": { "node": ">=18" },
+  "keywords": ["seo", "audit", "cli", "lighthouse", "schema", "open-graph"],
+  "author": "Gabriel Dev <contact@gabrieldev.eu> (https://gabrieldev.eu)",
+  "license": "MIT"
+}
